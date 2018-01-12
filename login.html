@@ -1,0 +1,28 @@
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <style>
+  .login_aside{ border:3px solid #000} 
+  </style>
+</head>
+
+<body>
+<div class = "login_aside" id = "login" style="width:300px;height:200px;float:right;">
+  <h3 style="color:red">用户登陆</h3>
+  <div class = "login-form">
+    <div class = "login-tip"></div>
+      <form action = "login.php" method = "POST">
+          <input type="text" name="username" placeholder = "用户名" style="width:200px;height:25px">
+          <br>
+          <br>
+          <input type = "password" name = "password" placeholder = "密码"
+          style="width:200px;height:25px">
+          <br>          
+          <input type="radio" name="who" value="student" checked>学生
+          <input type="radio" name="who" value="warsden" checked>管理员  
+          <br>
+          <a href = "signin.html">立即注册</a><input type="submit" value="login">  
+      </form>
+  </div>
+</div>
+</body>
+
